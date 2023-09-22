@@ -1,0 +1,32 @@
+#contact-container {
+    padding-bottom: 25px;
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 25%;
+        li {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    #contact-container {
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 25px;
+            li {
+                margin-left: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: local('Ubuntu'), url(../../fonts/Ubuntu-Light.ttf) format('truetype');
+	font-display: swap;
+}
+
+$background: linear-gradient(#FFFFFF, #01232F);
+$block-background: #F2F2F2;
+$header-and-footer-background: transparent;
+$font-color: #01232F;
+
+
+html, body {
+    max-width: 1440px;
+	width: 100%;
+    margin: 0 auto;
+	background: $background;
+	font-family: Ubuntu;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	opacity: 1;
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-bottom: 25px;
+	padding: 15px;
+	border-radius: 25px;
+	text-align: center;
+	color: $font-color;
+	border: 1px solid #000000;
+    background: linear-gradient(-45deg, #F2F2F2, #ADC8D3,);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h3 {
+	font-size: 1.3em;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-size: 1em;
+	margin: 15px 0 10px 0;
+}
+
+h5 {
+	font-size: 0.8em;
+}
+
+h6 {
+	font-size: 0.7em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #01232F;
+}
+
+a:hover {
+	color: #708ED3;
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+section {
+	margin-top: 85px;
+	border-radius: 25px;
+	padding: 15px;
+}
+
+.presentation-img-text-cv, .skill, .tool, .work, .contact-div {
+	background-color: $block-background;
+	box-shadow: 10px 10px 5px #000000;
+}
+
+.presentation-img-text-cv, .contact-div {
+	padding: 25px;
+	border-radius: 25px;
+}
+
+header, footer {
+	background-color: $header-and-footer-background;
+}
+
+@media screen and (max-width: 1024px) {
+
+	section {
+		margin-top: 25px;
+	}
+}

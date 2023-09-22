@@ -1,0 +1,33 @@
+[
+    {
+        "id": "work-01",
+        "title": "Site avec React",
+        "picture": "https://i.postimg.cc/KY2grdQb/P6-kasa.webp",
+        "description": "Kasa, une entreprise gérant la location de biens immobiliers entre particuliers, souhaitait reconstruire son site en React pour la partie côté client. J'ai intégré le site à partir des maquettes fournies en utilisant la logique des composants réutilisables",
+        "date": "Août 2023",
+        "problematic": "La principale problématique a été de comprendre et savoir utiliser le framework React avec sa logique de composants réutilisables, ses fonctionnalités : les hooks par exemple. La gestion des routes, notamment pour celles des logements, a été un bon exercice pour comprendre comment procéder. J'ai résolu ces problèmes grâce à la documentation de React, à l'aide de mon mentor et de mes recherches personnelles.",
+        "skills": [
+            "Initialiser une application avec Create React App",
+            "Configurer la navigation entre les pages de l'application avec React Router",
+            "Développement et réutilisation de composants React",
+            "Utilisation des hooks : useState et useEffect",
+            "Développement responsive"
+        ],
+        "link": "https://github.com/Niram96/Projet-6"
+    },
+    {
+        "id": "work-02",
+        "title": "Back-end d'un site",
+        "picture": "https://i.postimg.cc/B6ZLRHdw/P7-mon-vieux-grimoire.webp",
+        "description": "Une petite chaîne de librairies souhaitait ouvrir son site de référencement de notation de livres. Je devais m'occuper de toute la partie back-end du site en respectant un cahier des charges : Création de l'API avec Node.js et Express.js, création et connexion à une base de données MongoDB pour stocker les différentes données, connexion de l'utilisateur, gestion des différentes tâches sécurisées ou non",
+        "date": "Septembre 2023",
+        "problematic": "La gestion des requêtes et réponses entre le serveur et le client, la création des bonnes logiques afin d'effectuer les tâches correctement. Le cours d'OpenClassrooms sur le back-end et sur la création d'API ainsi que mes rehcerches personnelles m'ont beaucoup aidé pour comprendre comment construire la partie côté serveur et comment la sécuriser.",
+        "skills": [
+            "Création d'une API REST avec Node.js et Express.js",
+            "Implémenter un modèle logique de données conformément à la réglementation",
+            "Mettre en œuvre des opérations CRUD (Create, Read, Update & Delete) de manière sécurisée",
+            "Sécurisation d'une base de données"
+        ],
+        "link": "https://github.com/Niram96/Projet-7"
+    }
+]

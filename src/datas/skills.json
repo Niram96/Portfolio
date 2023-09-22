@@ -1,0 +1,61 @@
+[
+    {
+        "id": "skills-01",
+        "title": "Front-End",
+        "languages": [
+            {
+                "language": "HTML",
+                "picture": "https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png"
+            },
+            {
+                "language": "CSS",
+                "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/170px-CSS3_logo_and_wordmark.svg.png"
+            },
+            {
+                "language": "JavaScript",
+                "picture": "https://seeklogo.com/images/J/java-script-js-logo-ACF4AE5082-seeklogo.com.png"
+            }
+        ],
+        "frameworks": [
+            {
+                "framework": "React",
+                "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/270px-React-icon.svg.png"
+            }
+        ]
+    },
+    {
+        "id": "skills-02",
+        "title": "Back-End",
+        "languages": [
+            {
+                "language": "JavaScript - Node.js",
+                "picture": "https://www.cdnlogo.com/logos/n/79/node-js.svg"
+            }
+        ],
+        "frameworks": [
+            {
+                "framework": "Express.js",
+                "picture": "https://buttercms.com/static/images/tech_banners/ExpressJS.png"
+            }
+        ]
+    },
+    {
+        "id": "skills-03",
+        "title": "Divers",
+        "various": [
+            {
+                "title": "Git",
+                "picture": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+            },
+            {
+                "title": "Bash",
+                "picture": "https://sysadmin.cyklodev.com/wp-content/uploads/2015/11/bash_logo.png"
+            },
+            {
+                "title": "Utilisateur de Linux",
+                "picture": "https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png"
+            }
+        ],
+        "frameworks": null
+    }
+]
