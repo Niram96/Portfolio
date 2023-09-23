@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1157ca17.css",
-    "main.js": "/Portfolio/static/js/main.be66cfb1.js",
+    "main.css": "/Portfolio/static/css/main.30ee2ca6.css",
+    "main.js": "/Portfolio/static/js/main.f9e4a393.js",
     "static/media/Ubuntu-Light.ttf": "/Portfolio/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
     "static/media/CV.webp": "/Portfolio/static/media/CV.6112783000e6f95ddb39.webp",
     "static/media/monitor.webp": "/Portfolio/static/media/monitor.4604f9e88f0b0b381133.webp",
@@ -9,11 +9,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/phone-solid.svg": "/Portfolio/static/media/phone-solid.7f7d543748e059daa4517a0947b6a842.svg",
     "static/media/envelope-solid.svg": "/Portfolio/static/media/envelope-solid.5c4d5031358089786ad0f81c688d7504.svg",
-    "main.1157ca17.css.map": "/Portfolio/static/css/main.1157ca17.css.map",
-    "main.be66cfb1.js.map": "/Portfolio/static/js/main.be66cfb1.js.map"
+    "main.30ee2ca6.css.map": "/Portfolio/static/css/main.30ee2ca6.css.map",
+    "main.f9e4a393.js.map": "/Portfolio/static/js/main.f9e4a393.js.map"
   },
   "entrypoints": [
-    "static/css/main.1157ca17.css",
-    "static/js/main.be66cfb1.js"
+    "static/css/main.30ee2ca6.css",
+    "static/js/main.f9e4a393.js"
   ]
 }
