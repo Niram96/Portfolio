@@ -35,22 +35,18 @@
     }
     @keyframes skillsTranslate {
         from {
-            position: relative;
-            left: -100%;
+            transform: translateX(-100vh);
         }
         to {
-            position: relative;
-            left: 0;
+            transform: translateX(0);
         }
     }
     @keyframes skillsTranslate2 {
         from {
-            position: relative;
-            right: -100%;
+            transform: translateX(100vh);
         }
         to {
-            position: relative;
-            right: 0;
+            transform: translateX(0);
         }
     }
 }
@@ -69,5 +65,12 @@
                 width: 90%;
             }
         }
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #skills-container {
+        margin-top: 50px;
     }
 }

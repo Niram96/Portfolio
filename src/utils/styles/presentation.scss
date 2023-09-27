@@ -8,14 +8,15 @@
             height: 451px;
             border-radius: 25px;
             object-fit: cover;
+            aspect-ratio: 1.419;
             animation: imgOpacity 3s ease-in-out;
         }
         @keyframes imgOpacity {
             from {
-                opacity: 0;
+                transform: translateX(-100vh);
             }
             to {
-                opacity: 1;
+                transform: translateX(0);
             }
         }
         .presentation-text-and-cv {
@@ -33,10 +34,10 @@
             }
             @keyframes textTranslation {
                 from {
-                    margin-bottom: -100vh;
+                   transform: translateY(100vh);
                 }
                 to {
-                    margin-bottom: 0;
+                    transform: translateY(0vh);
                 }
             }
         }
@@ -46,6 +47,8 @@
 @media screen and (max-width: 1024px) {
     
     #presentation-container {
+        height: auto;
+        margin-bottom: 25px;
         .presentation-img-text-cv {
         display: flex;
         flex-direction: column;

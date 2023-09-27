@@ -9,7 +9,6 @@ function Skills ({id, title, languages, frameworks, various}) {
     if (title !== "Divers") {
         return (
             <div ref={ref} className = {inViewport.enterCount >= 1 ? `skill ${id}` : 'skill'}>
-                {console.log(inViewport.enterCount)}
                 <h3>{title}</h3>
                 <h4>Langages :</h4>
                 <ul>

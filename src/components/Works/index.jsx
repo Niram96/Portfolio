@@ -12,7 +12,7 @@ function Works ({id, title, picture, description, date, problematic, skills, lin
         <div className='work'>
             <h3>{title}</h3>
             <a href={picture}>
-                <img src={picture} alt="Capture d'écran du site" />
+                <img src={picture} alt={title} />
             </a>
             <p className='work-description'>{description}</p>
             <p className='work-date'>{date}</p>
