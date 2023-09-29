@@ -52,6 +52,14 @@
                 "picture": "https://sysadmin.cyklodev.com/wp-content/uploads/2015/11/bash_logo.png"
             },
             {
+                "title": "Postman",
+                "picture": "https://www.svgrepo.com/show/354202/postman-icon.svg"
+            },
+            {
+                "title": "Visual Studio Code",
+                "picture": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/com.visualstudio.code.png"
+            },
+            {
                 "title": "Utilisateur de Linux",
                 "picture": "https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png"
             }
