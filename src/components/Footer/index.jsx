@@ -1,4 +1,4 @@
-import '../../utils/styles/footer.scss'
+import '../../utils/styles/footer.scss';
 import gitHubLogo from '../../assets/icons/github-mark/github-mark-white.svg';
 
 function Footer () {

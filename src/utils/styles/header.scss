@@ -1,9 +1,9 @@
 header {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: auto;
     height: 150px;
-    background-color: white;
+    padding: 0 25px !important;
     h1 {
         font-size: 1.8em;
         margin-right: auto;
