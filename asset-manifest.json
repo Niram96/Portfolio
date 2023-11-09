@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c0c5a27e.css",
-    "main.js": "/Portfolio/static/js/main.120e0d36.js",
+    "main.css": "/Portfolio/static/css/main.a008df82.css",
+    "main.js": "/Portfolio/static/js/main.6fe2f848.js",
     "static/media/Ubuntu-Light.ttf": "/Portfolio/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
-    "static/media/CV.webp": "/Portfolio/static/media/CV.6112783000e6f95ddb39.webp",
+    "static/media/CV.webp": "/Portfolio/static/media/CV.d5b0addb2777e44ae79f.webp",
     "static/media/presentation.webp": "/Portfolio/static/media/presentation.a41386d1a54383995c11.webp",
-    "static/media/github-mark-white.svg": "/Portfolio/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
+    "static/media/github.svg": "/Portfolio/static/media/github.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/phone-solid.svg": "/Portfolio/static/media/phone-solid.7f7d543748e059daa4517a0947b6a842.svg",
     "static/media/envelope-solid.svg": "/Portfolio/static/media/envelope-solid.5c4d5031358089786ad0f81c688d7504.svg",
-    "main.c0c5a27e.css.map": "/Portfolio/static/css/main.c0c5a27e.css.map",
-    "main.120e0d36.js.map": "/Portfolio/static/js/main.120e0d36.js.map"
+    "main.a008df82.css.map": "/Portfolio/static/css/main.a008df82.css.map",
+    "main.6fe2f848.js.map": "/Portfolio/static/js/main.6fe2f848.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0c5a27e.css",
-    "static/js/main.120e0d36.js"
+    "static/css/main.a008df82.css",
+    "static/js/main.6fe2f848.js"
   ]
 }
